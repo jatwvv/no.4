@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+}
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+ul {
+    list-style: none;
+}
+
+.container .box{
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.container .box .image img {
+    border-radius: 50%;
+    width: 100px;
+    margin: 50px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.container .box .info .name {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+}
+.container .box .info .ad {
+    font-weight: 500;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    padding-top: 10px;
+}
+.container .box .info .desc {
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.container .box .links {
+    padding-bottom: 15px;
+}
+.container .box .links ul li {
+    width: 300px;
+    margin: auto;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 20px;
+    padding: 15px 0;
+    border-radius: 8px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    cursor: pointer;
+}
+.container .box .links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.container .box .links ul li:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+.container .box .links ul li:hover  a{
+    color: black;
+}
